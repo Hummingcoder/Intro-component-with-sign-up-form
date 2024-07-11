@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="txt">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </article>
+      <article class="form_container">
+        <section class="discount">
+          <p><b>Try it free 7 days</b> then $20/mo. thereafter</p>
+        </section>
+        <form>
+          <div class="input_Container">
+            <input
+              type="text"
+              class="input"
+              id="first_name"
+              placeholder="First Name"
+            />
+            <span class="img"><img src="images/icon-error.svg" alt="" /></span>
+            <span class="error"></span>
+          </div>
+          <div class="input_Container">
+            <input
+              type="text"
+              class="input"
+              id="last_name"
+              placeholder="Last Name"
+            />
+            <span class="img"><img src="images/icon-error.svg" alt="" /></span>
+            <span class="error"></span>
+          </div>
+          <div class="input_Container">
+            <input
+              type="email"
+              class="input"
+              id="email"
+              placeholder="Email Address"
+            />
+            <span class="img"><img src="images/icon-error.svg" alt="" /></span>
+            <span class="error"></span>
+          </div>
+          <div class="input_Container">
+            <input
+              type="password"
+              class="input"
+              id="password"
+              placeholder="Password"
+            />
+            <span class="img"><img src="images/icon-error.svg" alt="" /></span>
+            <span class="error"></span>
+          </div>
+          <button class="submit" type="submit">Claim your free trial</button>
+          <p class="terms">
+            By clicking the button you are agreeing to out
+            <span class="red">Terms and Services</span>
+          </p>
+        </form>
+      </article>
+    </main>
+    <!-- 
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+    <script src="index.js"></script>
+  </body>
+</html>
