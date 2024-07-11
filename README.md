@@ -27,5 +27,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-3iETOeJJ5W)
+- Live Site URL: [here](https://hummingcoder.github.io/Intro-component-with-sign-up-form/)
